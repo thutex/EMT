@@ -6,12 +6,13 @@ For those who don't want an entire web-based server management
 ## Getting Started
 
 Just put the EMT files somewhere, i personally have them in /opt/EMT and symlinked to /usr/bin
+(warning: there are still some hard-coded references to /opt/EMT!)
 
 ### Prerequisites
 
 There are a few, like: the scripts have some expectations of where to find files,
 i'll add them here when i find the time
-(tip: if you don't know bash or don't like risks, don't use this yet)
+tip: if you don't know bash or don't like risks, don't use this yet - there are quite a few places that are still hard-coded instead of in a config file, so it's not (yet) an out-of-the-box solution
 
 ```
 -> you created all the directories/configurations that need to be used (might change in future revisions with an installer)
